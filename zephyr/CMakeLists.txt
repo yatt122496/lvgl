@@ -138,6 +138,7 @@ zephyr_library_sources(
     ../src/font/lv_font_montserrat_16.c
     ../src/font/lv_font_montserrat_10.c
     ../src/font/lv_font_simsun_16_cjk.c
+    ../src/font/lv_font_simfang_16_cjk.c
     ../src/font/lv_font_montserrat_26.c
     ../src/font/lv_font_montserrat_48.c
     ../src/font/lv_font_montserrat_14.c

@@ -507,6 +507,8 @@ menu "LVGL configuration"
                 bool "Enable Dejavu 16 Persian, Hebrew, Arabic letters"
             config LV_FONT_SIMSUN_16_CJK
                 bool "Enable Simsun 16 CJK"
+            config LV_FONT_SIMFANG_16_CJK
+                bool "Enable Simfang 16 CJK"
 
             config LV_FONT_UNSCII_8
                 bool "Enable UNSCII 8 (Perfect monospace font)"
@@ -600,6 +602,9 @@ menu "LVGL configuration"
             config LV_FONT_DEFAULT_SIMSUN_16_CJK
                 bool "Simsun 16 CJK"
                 select LV_FONT_SIMSUN_16_CJK
+            config LV_FONT_DEFAULT_SIMFANG_16_CJK
+                bool "Simfang 16 CJK"
+                select LV_FONT_SIMFANG_16_CJK
             config LV_FONT_DEFAULT_UNSCII_8
                 bool "UNSCII 8 (Perfect monospace font)"
                 select LV_FONT_UNSCII_8
@@ -976,11 +981,11 @@ menu "LVGL configuration"
             default n
         config LV_USE_GRIDNAV
             bool "Enable grid navigation"
-            default n 
+            default n
 
         config LV_USE_FRAGMENT
             bool "Enable lv_obj fragment"
-            default n 
+            default n
 
     endmenu
 

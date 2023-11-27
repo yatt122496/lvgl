@@ -325,6 +325,7 @@ static int lvgl_pointer_kscan_init(void)
 }
 #endif /* CONFIG_LV_Z_POINTER_KSCAN */
 
+extern void lv_port_indev_init(void);
 static int lvgl_init(void)
 {
 
@@ -371,6 +372,7 @@ static int lvgl_init(void)
 #ifdef CONFIG_LV_Z_POINTER_KSCAN
 	lvgl_pointer_kscan_init();
 #endif /* CONFIG_LV_Z_POINTER_KSCAN */
+    lv_port_indev_init();
 
 	return 0;
 }

@@ -104,6 +104,8 @@ extern "C" {
 #  define CONFIG_LV_FONT_DEFAULT &lv_font_dejavu_16_persian_hebrew
 #elif defined(CONFIG_LV_FONT_DEFAULT_SIMSUN_16_CJK)
 #  define CONFIG_LV_FONT_DEFAULT &lv_font_simsun_16_cjk
+#elif defined(CONFIG_LV_FONT_DEFAULT_SIMFANG_16_CJK)
+#  define CONFIG_LV_FONT_DEFAULT &lv_font_simfang_16_cjk
 #elif defined(CONFIG_LV_FONT_DEFAULT_UNSCII_8)
 #  define CONFIG_LV_FONT_DEFAULT &lv_font_unscii_8
 #elif defined(CONFIG_LV_FONT_DEFAULT_UNSCII_16)

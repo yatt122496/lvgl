@@ -229,6 +229,10 @@ LV_FONT_DECLARE(lv_font_dejavu_16_persian_hebrew)
 LV_FONT_DECLARE(lv_font_simsun_16_cjk)
 #endif
 
+#if LV_FONT_SIMFANG_16_CJK
+LV_FONT_DECLARE(lv_font_simfang_16_cjk)
+#endif
+
 #if LV_FONT_UNSCII_8
 LV_FONT_DECLARE(lv_font_unscii_8)
 #endif

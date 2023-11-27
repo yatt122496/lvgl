@@ -1077,6 +1077,13 @@
         #define LV_FONT_SIMSUN_16_CJK            0  /*1000 most common CJK radicals*/
     #endif
 #endif
+#ifndef LV_FONT_SIMFANG_16_CJK
+    #ifdef CONFIG_LV_FONT_SIMFANG_16_CJK
+        #define LV_FONT_SIMFANG_16_CJK CONFIG_LV_FONT_SIMFANG_16_CJK
+    #else
+        #define LV_FONT_SIMFANG_16_CJK            0  /*1000 most common CJK radicals*/
+    #endif
+#endif
 
 /*Pixel perfect monospace fonts*/
 #ifndef LV_FONT_UNSCII_8
